@@ -142,6 +142,11 @@
         color: #ffffff;
         font-size: 20px;
         margin-bottom: 20px;
+
+    }
+     
+    #course {
+        top: 20px;
     }
 
     .container1 {
@@ -167,7 +172,7 @@
         align-items: center;
         display: flex;
         padding: 80px;
-        left: 40px;
+        left: 10px;
         justify-content: center;
         font-family: miso-bold;
         color: #ffffff;
@@ -184,9 +189,9 @@
         justify-content: center;
         font-family: miso-bold;
         color: #686464;
-        font-size: 25px;
-        line-height: 30px;
-        margin-bottom: 12px;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 11px;
      }
     
 
