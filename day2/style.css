@@ -10,12 +10,20 @@
 #title, #course {
     top: 12px;
     float: left;
-    left: 10px;
+    left: 5px;
     position: relative;
     font-family: miso-bold;
     color: #ffffff;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.aboutme {
+    color: grey;
+    font_size: 30px;
+    font-family: miso-bold;
+    left:40px;
+    font-size: 45px;
 }
 
 #course {
@@ -193,6 +201,16 @@
         line-height: 25px;
         margin-bottom: 11px;
      }
+
+     .aboutme {
+        color: grey;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        font-family: miso-bold;
+        margin-left: 20px;
+        font-size: 20px;
+    }
     
 
   }
