@@ -7,7 +7,7 @@
     background-color: #505050;
 }
 
-#title, #course {
+#title {
     top: 12px;
     float: left;
     left: 10px;
@@ -22,6 +22,14 @@
 #course {
     font-size: 40px;
     color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    left: 10px;
+    font-family: miso-bold;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 #myself, #mydescription{
@@ -134,7 +142,7 @@
       background-color: #505050;
     }
 
-    #title, #course {
+    #title {
         top: 6px;
         float: left;
         left: 10px;
@@ -147,7 +155,12 @@
     }
      
     #course {
-        top: 20px;
+        top: 40px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
 
     .container1 {
