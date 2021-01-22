@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.input{
+
+    text-align: center;
+    margin: 100px 0;
+    padding: 20px 10px;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 450px;
+    background-color: grey;
+    /*color: white;*/
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 10px;
+
+}
+
+input[type="button"] {
+    height: 40px;
+    width: 100px;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.display{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 35px;
+}
+
+        /*var namevalue = data['name'];
+        var descvalue = data['main']['temp'];
+        var tempvalue = data['weather'][0]['description'];
+
+        placename.innerHTML = namevalue;
+        desc.innerHTML = descvalue;
+        temp.innerHTML = tempvalue;*/
+
+
+        @media screen and (max-width: 600px) {
+
+            input[type="text"] {
+                height: 30px;
+                width: 250px;
+                background-color: grey;
+                /*color: white;*/
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+                padding-left: 6px;
+            
+            }
+
+            input[type="button"] {
+                height: 30px;
+                width: 60px;
+                background-color: grey;
+                margin: 10px;
+                border-radius: 5px;
+                font-size: 12px;
+                padding: 7px;
+            
+            }
+
+            .display{
+                color: whitesmoke;
+                text-align: center;
+                font-size: 20px;
+            }
+
+        }
+
+        @media screen and (max-width: 300px) {
+            input[type="text"] {
+                height: 30px;
+                width: 150px;
+                background-color: grey;
+                /*color: white;*/
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+                padding-left: 6px;
+            
+            }
+
+
+
+        } 
+
