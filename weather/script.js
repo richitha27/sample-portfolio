@@ -14,13 +14,14 @@ button.addEventListener('click', function(placename) {
     .then(data => {
         var namevalue = data['name'];
         var tempvalue = data['main']['temp'];
+        var tempvaluec = (tempvalue - 32) * (5/9);
         var descvalue = data['weather'][0]['description'];
        // var humivalue = data['main'][''];
-
+        //T(°C) = (T(°F) - 32) × 5/9  Math.round(num * 100) / 100
 
         //place.innerHTML = namevalue;
-        desc.innerHTML = `Description: ${descvalue}`;
-        temp.innerHTML = `Temperature: ${tempvalue}`;
+        desc.innerHTML = `Description: ${descvalue}`;           
+        temp.innerHTML = `Temperature: ${Math.round(tempvaluec * 100)/100} celsius`;
       //  humidity.innerHTML = `Humidity: ${humivalue}`;
     })
     
